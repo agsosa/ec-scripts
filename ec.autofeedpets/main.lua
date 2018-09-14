@@ -114,14 +114,14 @@ local OnLoad = function()
         ec.log("Auto feed pets settings deprecated, reset them.")
         settings.clear()
     end
-	registerEvent("EventOpenPassword", "OnGameStartPets")
+	registerEvent("EventOpenPassword", "OnGameStart")
 end
 
 local OnUnload = function()
     settings.flush()
 end
 
-function OnGameStartPets()
+function OnGameStart()
 	ec.log("[Auto Feed Pets] OnGameStart: Timer Reset")
 	WaitForPetFeed(1)
 end

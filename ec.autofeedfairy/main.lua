@@ -221,7 +221,7 @@ local OnLoad = function()
         ec.log("Auto feed fairy settings deprecated, reset them.")
         settings.clear()
     end
-	registerEvent("EventOpenPassword", "OnGameStartFairy")
+	registerEvent("EventOpenPassword", "OnGameStart")
 end
 
 local OnUnload = function()
@@ -229,9 +229,9 @@ local OnUnload = function()
     settings.flush()
 end
 
-function OnGameStartFairy()
+local function OnGameStart()
 	ec.log("[Auto Feed Fairy] OnGameStart: Timer Reset")
-	WaitNextBeer(1)
+	WaitNextFairyFeed(1)
 end
 
 ec.registerEvent("EC.OnLoad",       OnLoad)

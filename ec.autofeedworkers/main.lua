@@ -123,14 +123,14 @@ local OnLoad = function()
 	
 	if(settings.enable_auto_feed_workers==false) then WaitNextBeer(1) end
 	
-	registerEvent("EventOpenPassword", "OnGameStartWorkers")
+	registerEvent("EventOpenPassword", "OnGameStart")
 end
 
 local OnUnload = function()
     settings.flush()
 end
 
-function OnGameStartWorkers()
+function OnGameStart()
 	ec.log("[Auto Feed Workers] OnGameStart: Timer Reset")
 	WaitNextBeer(1)
 end
