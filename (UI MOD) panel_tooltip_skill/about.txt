@@ -1,0 +1,3 @@
+-- Simple UI mod for BDO to show SKILL ID and LEVEL in skill tooltips (useful to make combat scripts etc)
+
+image: https://i.gyazo.com/50582f5636783f22b34a49e679ec0402.png
