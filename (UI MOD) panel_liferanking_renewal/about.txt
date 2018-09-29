@@ -1,3 +1,0 @@
-UI Mod to display channel user count and to see how much money the top wealth have.
-
-Screenshot: https://i.gyazo.com/927924ceb35aa64655db848e91b449fe.png
