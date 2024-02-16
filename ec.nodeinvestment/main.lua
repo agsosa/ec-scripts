@@ -1,5 +1,4 @@
 -- Node Investment: Automatically invest your energy in a node
--- Contact: aleegs (forum), aleegs#2539 (discord)
 -- https://github.com/aleegs/ec-scripts
 
 local versionString = "1.0"
