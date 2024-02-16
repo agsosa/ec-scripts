@@ -1,6 +1,5 @@
 -- AUTO FEED FAIRY
 -- Use instant mode at your own risk
--- Contact: aleegs (forum), aleegs#2539 (discord)
 -- https://forums.elitecheat.ru/showthread.php?tid=222
 -- https://github.com/aleegs/ec-scripts
 
