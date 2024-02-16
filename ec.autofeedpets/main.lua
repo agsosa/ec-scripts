@@ -1,5 +1,4 @@
 -- AUTO FEED PETS
--- Contact: aleegs (forum), aleegs#2539 (discord)
 -- https://forums.elitecheat.ru/showthread.php?tid=219
 -- https://github.com/aleegs/ec-scripts
 
