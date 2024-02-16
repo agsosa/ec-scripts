@@ -1,5 +1,4 @@
 -- PLAYERESP
--- Contact: aleegs (forum), aleegs#2539 (discord)
 -- https://forums.elitecheat.ru/showthread.php?tid=225
 -- https://github.com/aleegs/ec-scripts
 
